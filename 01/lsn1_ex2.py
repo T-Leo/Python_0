@@ -3,5 +3,4 @@ hrsX = int(scndsX // 3600)
 mnts = int((scndsX % 3600) // 60)
 scnds = int(scndsX % 60)
 
-print('total amount of time is:')
-print(hrsX, ':', mnts, ':', scnds)
+print(f"{hrsX:02}:{mnts:02}:{scnds:02}")
