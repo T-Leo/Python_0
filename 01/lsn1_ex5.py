@@ -1,5 +1,5 @@
-gains = float(input("enter company's gains- "))
-costs = float(input("enter company's costs- "))
+gains = float(input("enter company'total_sum gains- "))
+costs = float(input("enter company'total_sum costs- "))
 workers = int(input('enter the amount of workers- '))
 
 if gains > costs:
