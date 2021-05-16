@@ -2,7 +2,7 @@ a = []
 b = int(input("enter the total amount of contents- "))
 
 for i in range(b):
-    a.append(input("enter the list's contents- "))
+    a.append(input("enter the list'total_sum contents- "))
 print(a)
 
 d = 1
