@@ -8,9 +8,9 @@ print(a)
 d = 1
 while d < b:
     c = a.pop(d)
-    # print(a)
+    # print(num_a)
     a.insert(d - 1, c)
-    # print(a)
+    # print(num_a)
     d = d + 2
 
 print(a)
